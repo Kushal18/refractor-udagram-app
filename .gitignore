@@ -1,2 +1,6 @@
 #ignore the sh file
 *.sh
+
+#ignore aws secret files
+aws-secret.yaml
+env-configmap.yaml
