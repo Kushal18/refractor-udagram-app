@@ -17,7 +17,7 @@ import { V0_FEED_MODELS } from './controllers/v0/model.index';
   const port = process.env.PORT || 8080;
 
   app.use(bodyParser.json());
-
+  
   app.use(cors({
     allowedHeaders: [
       'Origin', 'X-Requested-With',
