@@ -6,13 +6,13 @@ services:
     image: kushal1807/reverseproxy 
   backend_user:
     build:
-      context: ../../udagram-api-user
+      context: ../../project/udagram-api-user
     image: kushal1807/udagram-api-user
   backend_feed:
     build:
-      context: ../../udagram-api-feed  
+      context: ../../project/udagram-api-feed  
     image: kushal1807/udagram-api-feed
   frontend:
     build:
-      context: ../../udagram-frontend  
+      context: ../../project/udagram-frontend  
     image: kushal1807/udagram-frontend:local
